@@ -1,0 +1,282 @@
+
+.Display{
+  display:block;
+}
+.noDisplay{
+  display:none;
+}
+.content{
+  z-index:1;
+  position:relative;
+}
+
+.PageTop{
+  overflow:hidden;
+  margin:auto;
+  height:100%;
+  width:80%;
+  letter-spacing: .1em;
+  color:white;
+}
+.PageDescription{
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 22px;
+}
+.Title{
+  margin:auto;
+  text-align:center;
+  padding:100px 0px 2px 0px;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: montserrat_semibold,sans-serif;
+  letter-spacing: .05em;
+}
+
+.row {
+    margin: 90px auto 40px auto;
+    width: 80%;
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: block;
+    transition: 0.5s;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 35px 1px 35px;
+  text-align:center;
+    background-color: rgba(0,0,0,.25);
+  border: solid 1px #9CDBFC;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row:hover{
+  transition:0.5s;
+  background-color:#52627C;
+box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.4);
+  width:81%;
+}
+.LBTitle {
+    font-size: 25px;
+  font-family: montserrat_semibold,sans-serif;
+    margin: 15px;
+}
+.LBTitle2 {
+    font-size: 20px;
+  font-family: montserrat_semibold,sans-serif;
+}
+.columnleaderboard {
+    position: relative;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: auto;
+}
+.columnleaderboardpatreon {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+}
+.tlbutton{
+  margin:auto 20px ;
+  cursor:pointer;
+    font-family: montserrat_semibold,sans-serif;
+ text-transform: capitalize;
+  font-weight:700;
+     transition: all 0.3s ease-in-out;
+  letter-spacing: .05em;
+}
+.tlbutton:hover{
+      text-shadow: 0 0 15px white;
+   transition: all 0.3s ease-in-out;
+    letter-spacing: .08em;
+}
+
+.trophy {
+    position: relative;
+    display: block;
+    height: auto;
+    width: 18px;
+    float: left;
+    margin: auto;
+}
+.First {
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 2px solid white;   
+    font-size: 17px;
+  font-family: montserrat_semibold,sans-serif;
+    font-weight: bold;
+}
+.BellowFirst {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+.text {
+    font-size: 13px;
+  font-family: montserrat_semibold,sans-serif;
+    font-weight: 200;
+}
+#right {
+    padding-left: 7vw;
+}
+#left {
+    padding-right: 7vw;
+}
+name {
+    float: left;
+  text-transform: capitalize;
+}
+amount {
+    float: right;
+}
+.row2{
+      margin: 20px auto 40px auto;
+    width: 80%;
+    height: auto;
+    display: block;
+    transition: 0.5s;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 35px 1px 35px;
+  text-align:center;
+  
+}
+.row2:after{
+      content: "";
+    display: table;
+    clear: both;
+}
+.buttondiv{
+  display:block;
+}
+.buttondiv > img{
+  vertical-align: middle;;
+}
+.donobuttons {
+    position: relative;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: auto;
+}
+
+.button{
+  background-color: rgba(0,0,0,.25);
+  border: solid 1px #9CDBFC;
+  color: white;
+  padding: 13px 22px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  font-family:montserrat_semibold,sans-serif;
+  margin:auto;
+  cursor:pointer;
+  font-weight:600;
+  letter-spacing:.1em;
+  transition: 0.4s;
+  width:100%;
+}
+
+.button:hover{
+  background-color: white;
+  border: solid 1px #9CDBFC;
+  color: black;
+  transition: 0.2s;
+  cursor:pointer;
+}
+.donopic{
+  margin:4px;
+  width:15px;
+  vertical-align:middle;
+}
+
+.donobuttons {
+  letter-spacing: 0.15em;
+  transition: 0.3s ease 0s;
+}
+.donobuttons:hover {
+  letter-spacing: 0.25em;
+  transition: 0.3s ease 0s;
+}
+.donobuttons {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  position: relative;
+  cursor: pointer;
+  width:auto;
+  color: white;
+  padding: 13px 22px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  font-family:montserrat_semibold,sans-serif;
+  margin:auto;
+  cursor:pointer;
+  font-weight:600;
+  letter-spacing:.1em;
+  transition: 0.4s;
+  width:100%;
+}
+.donobuttons:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 4px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.donobuttons:hover:after {
+  width: 100%;
+  left: 0;
+  box-shadow: 0 0 10px white;
+}
+.donobuttonst {
+  font-family: montserrat;
+  color: white;
+  font-weight: 600;
+  font-size:25px;
+}
+
+span{
+    vertical-align: middle;
+}
+
+/* Add this to align vertically */
+button > img,
+button > span {
+  vertical-align: middle;
+}
+button > img {
+  width:2.5%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  width:100%;
+  margin:auto;
+}
+.grid-item {
+  padding: 50px;
+  font-size: 30px;
+  text-align: center;
+  margin:auto;
+}
+

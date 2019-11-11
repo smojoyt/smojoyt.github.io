@@ -1,0 +1,460 @@
+.content{
+  z-index:1;
+  position:relative;
+}
+.stats{
+  overflow:hidden;
+  margin:auto;
+  height:100%;
+  width:80%;
+  font-size:12px;
+  font-weight:400;
+  color:white;
+}
+
+.leftstats{
+  float:left;
+  display:inline-block;
+}
+.lst{
+  display:inline-block;
+}
+.lsn{
+  display:inline-block;
+  font-weight:700;
+}
+.rightstats{
+  float:right;
+  display:inline-block;
+}
+.rst{
+  display:inline-block;
+}
+.rsn{
+  display:inline-block;
+  font-weight:700;
+}
+
+.PageTop{
+  overflow:hidden;
+  margin:auto;
+  height:100%;
+  width:80%;
+  letter-spacing: .1em;
+  color:white;
+}
+.Title{
+  margin:auto;
+  text-align:center;
+  padding:100px 0px 2px 0px;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: montserrat_semibold,sans-serif;
+  letter-spacing: .05em;
+}
+.PageDescription{
+  text-align:center;
+  text-transform: none;
+  line-height:22px;
+}
+
+
+
+.grid-container {
+  padding-top: 50px;
+   display: grid;
+  align-content: center;
+    webkit-box-pack: center;
+    width:80%;
+    justify-content: center;
+   grid-template-columns: auto auto;
+  margin:auto;
+}
+.grid-item {
+  padding: 30px 30px 40px;
+  font-size: 30px;
+  text-align: center;
+  border-radius:20px;
+  box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.4);
+  z-index: 1;
+  transition:0.5s;
+  margin:20px;
+  background-color: rgba(0,0,0,.25);
+  border: solid 1px #9CDBFC;
+}
+.grid-item:hover{
+  transition:0.5s;
+  background-color:#52627C;
+box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.4);
+}
+
+
+.gridlogo{
+Height:auto;
+width:25px;
+float:left;
+}
+.gridtitle{
+  color:white;
+  font-size:22px;
+  padding-left:5px;
+  font-family:montserrat;
+  font-weight:700;
+  float:left;
+}
+.gridtop{
+  display:inline-block;
+  width:100%;
+}
+.gridmiddle{
+  margin:auto;
+  text-align:center;
+  display:inline-block;
+  float:left;
+  color:white;
+  font-size:15px;
+  font-family:montserrat;
+  font-weight:300;
+  text-transform: capitalize;
+}
+.gridbottom{
+  padding-top:20px;
+  display:inline-block;
+  width:100%;
+}
+.griddetailsbutton{
+  color: white;
+  padding-top: 13px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  font-family:montserrat_semibold,sans-serif;
+  margin:auto;
+  cursor:pointer;
+  text-shadow: 2px 2px 13px rgba(0,0,0,.3); 
+  font-weight:600;
+  letter-spacing:.1em;
+  transition: 0.4s;
+}
+#PreviousWinnersButton{
+  color: white;
+  padding-top: 13px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family:montserrat_semibold,sans-serif;
+  margin:auto;
+  cursor:pointer;
+  text-shadow: 2px 2px 13px rgba(0,0,0,.3); 
+  font-weight:600;
+  letter-spacing:.1em;
+  transition: 0.4s;
+}
+#griddetailss1{
+  float:left;
+  padding:10px;
+  font-size: 12px;
+  color:white;
+  letter-spacing:.1em;
+  transition: 0.4s;
+  text-align:left;
+}
+#griddetailss2{
+    float:left;
+  padding:10px;
+  font-size: 12px;
+  color:white;
+  letter-spacing:.1em;
+  transition: 0.4s;
+  text-align:left;
+}
+#griddetailss3{
+    float:left;
+  padding:10px;
+  font-size: 12px;
+  color:white;
+  letter-spacing:.1em;
+  transition: 0.4s;
+  text-align:left;
+}
+#griddetailss4{
+    float:left;
+  padding:10px;
+  font-size: 12px;
+  color:white;
+  letter-spacing:.1em;
+  transition: 0.4s;
+  text-align:left;
+}
+#griddetailss5{
+    float:left;
+  padding:10px;
+  font-size: 12px;
+  color:white;
+  letter-spacing:.1em;
+  transition: 0.4s;
+  text-align:left;
+}
+#griddetailss6{
+    float:left;
+  padding:10px;
+  font-size: 12px;
+  color:white;
+  letter-spacing:.1em;
+  transition: 0.4s;
+  text-align:left;
+}
+.topicbox{
+  padding:5px;
+  display:inline-block;
+}
+.Topic{
+  font-weight:600;
+}
+.Topic, .TopicDetails{
+  float:left;
+}
+.PrizeList{
+float:left;
+}
+.EventDescription{
+  text-transform: capitalize;
+}
+.buttondiv{
+  margin:auto;
+  width:40%;
+  color:white;
+  text-align:center;
+}
+.joineventbutton {
+  letter-spacing: 0.15em;
+  transition: 0.3s ease 0s;
+}
+.joineventbutton:hover {
+  letter-spacing: 0.25em;
+  transition: 0.3s ease 0s;
+}
+.joineventbutton {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  position: relative;
+  cursor: pointer;
+  width:auto;
+  color: white;
+  padding: 13px 22px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family:montserrat_semibold,sans-serif;
+  margin:auto;
+  cursor:pointer;
+  font-weight:600;
+  letter-spacing:.1em;
+  transition: 0.4s;
+  width:auto;
+}
+.joineventbutton:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 4px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.joineventbutton:hover:after {
+  width: 100%;
+  left: 0;
+  box-shadow: 0 0 10px white;
+}
+.joineventbutton {
+  font-family: montserrat;
+  color: white;
+  font-weight: 600;
+  font-size:20px;
+}
+.PageBottom{
+  overflow:hidden;
+  margin:auto;
+  height:100%;
+  width:80%;
+  letter-spacing: .1em;
+  color:white;
+}
+.PageBottomDescription{
+    margin:auto;
+  text-align:center;
+  width:55%;
+  text-transform: none;
+  line-height:22px;
+  z-index:1;
+}
+.futureeventstitle{
+  margin:auto;
+  text-align:center;
+  padding:100px 0px 30px 0px;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: montserrat_semibold,sans-serif;
+  letter-spacing: .05em;
+  z-index:1;
+    display:block;
+}
+.sponsorsocials{
+Height:auto;
+width:2vw;
+margin-left:5px;
+margin-right:5px;
+border-radius:100%;
+}
+
+
+.Description{
+margin-top: 21px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+
+.bottomtext{
+display:block;
+margin:10px;
+font-family: "Comfortaa";
+font-size: 1em;
+font-weight:100;
+  color:white;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  display: inline-block;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius:50%;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+    border-bottom-left-radius: 50%;
+  border-top-left-radius:50%;
+    border-bottom-right-radius: 0%;
+  border-top-right-radius:0%;
+}
+.prev{
+  left:0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(255,255,255,1);
+  color:black;
+}
+
+/* Caption text */
+.PreviousWinnerVideo
+.PreviousWinnerVideoNoDisplay{
+  display:none;
+}
+.VideoTop{
+  display:inline-block;
+  width:100%;
+  margin:auto;
+  position: absolute;
+  top: 0;
+  color:white;
+  background-color: rgba(255,255,255,0);
+  z-index:1;
+  transition:0.2s ease-in-out;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius:20%;
+}
+.VideoTop:hover{
+  background-color: rgba(255,255,255,1);
+  color:black;
+  transition:0.1s ease-in-out;
+}
+.EventNumber{
+  left: 50px;
+}
+.Winner{
+  left: 120px;
+}
+.EventNumber, .Winner, .numbertext {
+  font-size: 12px;
+  padding: 8px;
+  font-weight:bold;
+  float:left;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  font-size: 12px;
+  padding: 8px 12px;
+  font-weight:bold;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
